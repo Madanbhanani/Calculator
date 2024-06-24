@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <center>
+    <h2>CALCULATOR</h2>
+    <div id="main-dv-clu">
+    <input readonly type="text" name="" id="display" class="input-clu">
+    <br><br>
+    <button  onclick="full()" id="btn-Clear-all">Clear all</button>
+    <button onclick="clearOn()" id="btn-Clear">Clear</button>
+    <div>
+      <button onclick="funclu(9)">9</button>
+      <button onclick="funclu(8)">8</button>
+      <button onclick="funclu(7)">7</button>
+      <button onclick="funclu('+')">+</button>
+    </div>
+    <div>
+      <button onclick="funclu(4)">4</button>
+      <button onclick="funclu(5)">5</button>
+      <button onclick="funclu(6)">6</button>
+      <button onclick="funclu('-')">-</button>
+    </div>
+    <div>
+      <button onclick="funclu(3)">3</button>
+      <button onclick="funclu(2)">2</button>
+      <button onclick="funclu(1)">1</button>
+      <button onclick="funclu('/')">/</button>
+    </div>
+    <div>
+      <button onclick="funclu('00')">00</button>
+      <button onclick="funclu(0)">0</button>
+      <button onclick="equ()">=</button>
+      <button onclick="funclu('*')">X</button>
+    </div>
+  </div>
+</center>
+</body>
+  <script src="./index.js"></script>
+</html>

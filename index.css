@@ -1,0 +1,49 @@
+
+.input-clu{
+    width: 160px;
+    height: 50px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: rgb(194, 194, 176);
+    border: 0px solid;
+    
+}
+button{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    
+}
+#btn-Clear-all{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+   border: none;
+}
+#btn-Clear{
+   width: 70px;
+   height: 20px;
+   border-radius: 20px;
+   border: none;
+}
+
+#main-dv-clu{
+   border: 2px solid;
+   margin: 50px;
+   padding: 10px;
+   width: 175px;
+   border-radius: 10px;
+   background-color: rgb(153, 129, 129);
+   text-align: center;
+  
+}
+.deltebtn{
+   background-color: red;
+   color: white;
+   outline: none;
+   border: 0px;
+   border-radius: 10px;
+   margin: 10px;
+}
